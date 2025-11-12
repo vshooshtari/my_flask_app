@@ -1,0 +1,8 @@
+Flask==3.0.2
+render_template
+request
+csv
+gunicorn==22.0.0
+# optional extras you might be using
+requests==2.32.0
+SQLAlchemy==2.0.30

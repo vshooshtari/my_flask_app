@@ -1,0 +1,18 @@
+field_name,field_caption,value,default_value,field_type,options,validation
+value_a2,نام / کد پروژه,نام پروژه : 188,,text,,required
+value_j2,تاریخ,date,1404/8/20,date,,
+prd_desc,شرح محصول,درب فریم لس تیپ A,nvf,text,,required
+dtkh,ضخامت درب,50,,number,,numeric
+value_j6,تعداد,6,,number,,numeric|required
+w_vrodi,عرض بازشوی دیوار (اندازه تیپ سازی),840,,number,,required|min:400|max:3000
+H_vrodi,ارتفاع بازشوی دیوار (اندازه تیپ سازی),2120,,number,,required|min:1000|max:3000
+bdkh_hor,بادخور افقی هر طرف,13,,number,,required|min:13|max:20
+bdkh_ver,بادخور عمودی بالای درب,20,,number,,required|min:13|max:20
+al_width,عرض فریم آلومینیوم,50,,number,,
+roye_thk,ضخامت رویه درب (با احتساب روکش),6,,number,,required
+mat_roye,جنس رویه درب,PLY ‌خام (پوششی),,select,"""پلای وود خام پوششی, پلای وود روکشی بلوط رگه راست , mdf خام پوششی, mdf روکشی بلوط رگه راست""",required
+dep_al_fr,عمق فریم آلومینیوم,مطابق نمونه,,radio,"""مطابق نمونه, مطابق کاتالوگ”",
+pvc_w_in_al,pvc زیر چوب داخل فریم,0,,radio,"“10, 20 , ندارد”",
+pvc_roye,اندازه پاخور pvc رویه درب,0,,radio,"“10, 20 , ندارد”",
+door_color,رنگ درب,مثلاً پلی ارتان گنج ۰۰۷,,text,,
+door_ori,توضیحات بازشوی درب ها (راست بازشو یا چپ بازشو هر کدام به چه تعداد),مثلاً ۴ عدد چپ بازشو / ۲ عدد راست بازشو,,textarea,,
