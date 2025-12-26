@@ -1,5 +1,4 @@
 Flask==3.0.2
-render_template
 request
 csv
 gunicorn==22.0.0
