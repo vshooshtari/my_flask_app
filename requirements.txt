@@ -1,5 +1,5 @@
 Flask==3.0.2
-request
+requests
 csv
 gunicorn==22.0.0
 # optional extras you might be using
